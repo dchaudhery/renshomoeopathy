@@ -102,7 +102,7 @@ section{
 }
 
 .header .logo{
-   font-size: 4rem;
+   font-size: 4.5rem;
    color:var(--blue);
 }
 
@@ -128,8 +128,10 @@ section{
 }
 
 .home{
-   background:url(../images/newHome.jpg) no-repeat;
-   background-size:50%;
+   background:url(../images/bg-new.png) no-repeat;
+   /* width:fit-content;
+   height:fit-content; */
+   background-size:150%;;
    background-position: right;
    
 }
@@ -150,7 +152,8 @@ section{
    line-height: 2;
    font-size: 1.5rem;
    color:var(--light-color);
-   padding:1rem 0;
+   font-weight: bolder;
+   /* padding:1rem 0; */
    text-transform: none;
 
 }
@@ -175,6 +178,8 @@ section{
    font-size: 1.4rem;
    color:var(--light-color);
    line-height: 2;
+   text-transform: none;
+
 }
 
 .services{
@@ -344,7 +349,7 @@ section{
 
 .footer{
    background-color: var(--light-bg);
-   margin-top: -190px;
+   /* margin-top: 00px; */
 }
 
 .footer .box-container{
