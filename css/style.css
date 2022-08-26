@@ -91,7 +91,7 @@ section{
   }
 
 .header{
-   padding:1rem;
+   padding:0.7rem;
    border-bottom: var(--border);
 }
 
@@ -102,7 +102,7 @@ section{
 }
 
 .header .logo{
-   font-size: 4.5rem;
+   font-size: 4rem;
    color:var(--blue);
 }
 
