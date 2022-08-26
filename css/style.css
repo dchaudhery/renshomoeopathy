@@ -91,7 +91,7 @@ section{
   }
 
 .header{
-   padding:2rem;
+   padding:1rem;
    border-bottom: var(--border);
 }
 
@@ -102,7 +102,7 @@ section{
 }
 
 .header .logo{
-   font-size: 5rem;
+   font-size: 4rem;
    color:var(--blue);
 }
 
@@ -151,6 +151,8 @@ section{
    font-size: 1.5rem;
    color:var(--light-color);
    padding:1rem 0;
+   text-transform: none;
+
 }
 
 .about .row{
@@ -199,7 +201,9 @@ section{
 
 .services .box-container .box img{
    margin:1rem 0;
-   height: 15rem;
+   /* height: 15rem; */
+   max-width: 10rem;
+   max-height: 15rem;
 }
 
 .services .box-container .box h3{
@@ -230,7 +234,8 @@ section{
 }
 
 .process .box-container .box img{
-   height: 20rem;
+   max-width: 20rem;
+   max-height: 20rem;
    margin:1rem 0;
 }
 
@@ -265,9 +270,9 @@ section{
 }
 
 .reviews .box-container .box img{
-   height: 10rem;
-   width: 10rem;
-   border-radius: 50%;
+   max-height: 15rem;
+   max-width: 10rem;
+   /* border-radius: 50%; */
 }
 
 .reviews .box-container .box p{
