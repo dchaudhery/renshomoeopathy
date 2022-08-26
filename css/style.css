@@ -271,8 +271,8 @@ section{
 
 .reviews .box-container .box img{
    max-height: 15rem;
-   max-width: 10rem;
-   /* border-radius: 50%; */
+   max-width: 15rem;
+   border-radius: 50%;
 }
 
 .reviews .box-container .box p{
