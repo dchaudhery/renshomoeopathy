@@ -483,3 +483,28 @@ section{
    }
 
 }
+
+#native {
+   -webkit-column-width: 150px;
+   -moz-column-width: 150px;
+   -o-column-width: 150px;
+   -ms-column-width: 150px;
+   column-width: 150px;
+   
+   -webkit-column-rule-style: solid;
+   -moz-column-rule-style: solid;
+   -o-column-rule-style: solid;
+   -ms-column-rule-style: solid;
+   column-rule-style: solid;
+ }
+.parent-container {
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   max-height: 300px;
+}
+
+.parent-container .items{
+   margin-left: 25%;
+   /* margin-bottom: 20px; */
+}
